@@ -24,6 +24,9 @@ EOF
 aws iam create-role --role-name aurora-prod-r --path / --assume-role-policy-document file://trust.json
 ```
 
+### Configure the Aurora 
+Update the values in the aurora.tfvars with appropriate values
+
 ### Custom KMS key
 - admin to PowerAdmins
 - user to aurora-prod-r
