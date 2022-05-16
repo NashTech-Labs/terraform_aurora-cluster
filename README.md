@@ -38,10 +38,10 @@ Update the values in the aurora.tfvars with appropriate values
 
 
 ### Terraform operations:
-terraform init -backend-config="aurora.config" 
-terraform plan -var-file="aurora.tfvars" 
-terraform apply -var-file="aurora.tfvars"  
-terraformdestroy -var-file="aurora.tfvars" 
+terraform init -backend-config="aurora.config"
+terraform plan -var-file="aurora.tfvars"
+terraform apply -var-file="aurora.tfvars"
+terraformdestroy -var-file="aurora.tfvars"
 
 
 Bug / Features:
